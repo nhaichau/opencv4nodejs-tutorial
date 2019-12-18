@@ -1,0 +1,14 @@
+{
+  "name": "opencv4nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "computer vision using opencv4nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chau H. Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "opencv4nodejs": "^5.5.0"
+  }
+}
