@@ -9,6 +9,7 @@
   "author": "Chau H. Nguyen",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs-node": "^1.4.0",
     "opencv4nodejs": "^5.5.0"
   }
 }

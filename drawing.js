@@ -23,7 +23,7 @@ mat.drawRectangle(new cv.Point(300, 100), new cv.Point(500, 200), lineColor, 2);
 mat.drawCircle(new cv.Point(700, 150), 60, new cv.Vec(0, 0, 255), 2);
 
 // Display text
-mat.putText("My self-tutor with opencv4nodejs", new cv.Point(50, 50), 2, 1, new cv.Vec(0, 255, 0));
+mat.putText("My self-tutor with opencv4nodejs", new cv.Point(50, 50), cv.FONT_HERSHEY_PLAIN, 1, new cv.Vec(0, 255, 0));
 
 cv.imshow('drawing', mat);
 cv.waitKey(0);
